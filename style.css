@@ -49,52 +49,74 @@ table {
 
 
 body{
-    background-color: indianred;
+    background-color: #3F51B5;
 }
 
 div.contentbox {
-	background: #FFF;
 	height: 500px;
 	font-size: 28px;
-	border: #CCC 1px dashed;
-    margin-top: 50px;
+    border: 2px solid white;
+    background-color: #3F51B5;
 }
 
 p{
-    padding-left: 5px;
-
+    font-family: arial;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    color: white;
+    margin: auto;
+    width: 50%;
 }
 
 h1{
     width: 100%;
     text-align: center;
-    font-size: 56px;
+    font-size: 82px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: red;
+    background-color: #303F9F;
     color: whitesmoke;
 }
 
 h2{
     text-align: center;
-    padding-top: 10px;
-
-
+    padding-top: 30px;
+    font-size: 34px;
+    color: white;
+    font-family: "Trebuchet MS";
 }
 
 #menu{
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
-    background-color: indianred;
+    background-color: #303F9F;
 }
 
 #menu a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin-left: 16%;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 5px 20px 5px 20px;
-    background-color: red;
-    
+    background-color: #1A237E;
+}
+
+#div1{
+    background-color: #2196F3;
+}
+
+#div2{
+    background-color: #03A9F4;
+}
+
+#div3{
+    background-color: #00BCD4;
+}
+
+#div4{
+    background-color: #009688;
+    margin-bottom: 50px;
 }
