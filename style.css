@@ -126,6 +126,12 @@ a{
     background-color: #03A9F4;
 }
 
+#div2 a{
+    background-color: #FF9800;
+    float: left;
+    margin-left: 180px;
+}
+
 #div3{
     background-color: #00BCD4;
 }
