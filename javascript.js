@@ -1,3 +1,4 @@
+//Scroll naar beneden
 function autoScrollTo(el) {
     var speed = getFieldValue("speed");
     var distance = getFieldValue("distance");
@@ -25,6 +26,8 @@ function autoScrollTo(el) {
     }
 }
 
+
+//Scroll terug naar boven
 function resetScroller(el){
     var speed = getFieldValue("speed");
     var distance = getFieldValue("distance");
@@ -42,8 +45,10 @@ function resetScroller(el){
     }
 }
 
+//Kijk of id bestaat 
+//Result op 0 wanneer de waarde een getal is en hoger dan 0 voer de functies uit.
 function getFieldValue(fieldName) {
-    var result = 0;
+   var result = 0;
    var field = document.getElementById(fieldName);
     if(field && isNumeric(field.value) ){
         result = parseInt(field.value);
@@ -51,7 +56,7 @@ function getFieldValue(fieldName) {
     return result;
 }
 
-
+//Check of waarde getal is
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
